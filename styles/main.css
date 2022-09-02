@@ -1,0 +1,92 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Epilogue', sans-serif;
+}
+
+body {
+  background-color: hsl(0, 0%, 98%);
+}
+
+.primary-btn {
+  padding: 0.7rem 1rem;
+  background-color: hsl(0, 0%, 98%);
+  color: black;
+  border: 1.8px solid black;
+  border-radius: 11px;
+}
+
+.secondary-btn {
+  padding: 0.5rem 1rem;
+  background-color: hsl(0, 0%, 98%);
+  color: black;
+  border: 0;
+}
+
+.accent-btn {
+  background-color: black;
+  color: hsl(0, 0%, 98%);
+  padding: 1rem 1.5rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  width: 75vw;
+  margin: auto;
+}
+
+.section-image {
+  width: 100%;
+}
+
+.section-image img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-width: 355px;
+  height: auto;
+  object-fit: cover;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 800px;
+  margin-right: 3vw;
+  margin-top: 7vw;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+p{
+  font-size: 1.125rem;
+  margin-right: 4vw;
+  color: hsl(0, 0%, 41%);
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+
+.sponsors img {
+  margin-right: 1.5rem;
+}
+
+.sponsors{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.page-content > button {
+  font-size: 1.1rem;
+}
+
+footer {
+  text-align: center;
+  padding-top: 1rem;
+}

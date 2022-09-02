@@ -1,0 +1,32 @@
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+  margin: auto;
+  max-width: 1800px;
+}
+
+nav {
+  display: flex;
+  align-items: flex-start;
+}
+
+.navigaiton-options {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.navigaiton-options li {
+  margin: 0 1.7rem;
+}
+
+.dropdown__content{
+  display: none;
+}
+
+.login-register-btns {
+  position: relative;
+  bottom: 0.25rem;
+}

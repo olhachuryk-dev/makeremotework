@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro section with dropdown navigation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="images/logo.svg" id="logo" />
+        <ul class="navigaiton-options">
+          <li id="features" class="dropdown">
+            Features
+            <ul class="dropdown__content">
+              <li><img src="images/icon-todo.svg" />Todo List</li>
+              <li><img src="images/icon-calendar.svg" />Clanedar</li>
+              <li><img src="images/icon-reminders.svg" />Reminders</li>
+              <li><img src="images/icon-planning.svg" />Planning</li>
+            </ul>
+          </li>
+          <li id="company" class="dropdown">
+            Company
+            <ul class="dropdown__content">
+              <li>History</li>
+              <li>Our Team</li>
+              <li>Blog</li>
+            </ul>
+          </li>
+          <li>Careers</li>
+          <li>About</li>
+        </ul>
+      </nav>
+      <div class="login-register-btns">
+        <button class="secondary-btn">Login</button>
+        <button class="primary-btn">Register</button>
+      </div>
+    </header>
+
+    <main>
+      <div class="page-content">
+        <h1>Make remote work</h1>
+        <p>
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <button class="primary-btn accent-btn">Learn more</button>
+        <div class="sponsors">
+          <img src="images/client-databiz.svg" />
+          <img src="images/client-audiophile.svg" />
+          <img src="images/client-meet.svg" />
+          <img src="images/client-maker.svg" />
+        </div>
+      </div>
+      <div class="section-image">
+        <img src="images/image-hero-desktop.png" />
+      </div>
+    </main>
+
+    <footer>
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        href="https://www.linkedin.com/in/olha-churyk-733aa1180/"
+        target="_blank"
+        >Olha Churyk</a
+      >.
+    </footer>
+  </body>
+</html>
